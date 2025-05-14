@@ -1,0 +1,57 @@
+.language-css .token.atrule {
+    color: #6c757d; /* Soft gray for at-rules */
+}
+
+.language-css .token.rule {
+    color: #007bff; /* Soft blue for rules */
+}
+
+.language-css .token.function {
+    color: #28a745; /* Gentle green for functions */
+}
+
+.language-css .token.punctuation {
+    color: #343a40; /* Darker gray for punctuation */
+}
+
+.language-css .token.property {
+    color: #343a40; /* Darker gray for properties */
+}
+
+.language-css .token.number {
+    color: #17a2b8; /* Light blue for numbers */
+}
+
+.language-css .token.unit {
+    color: #17a2b8; /* Muted yellow for units */
+}
+
+.language-css .token.color {
+    color: #dc3545; /* Soft red for color values */
+}
+
+.language-css .token.hexcode {
+    color: #fd7e14; /* Soft orange for hexcode values */
+}
+
+.language-css .token.selector {
+    color: #6610f2; /* Muted purple for selectors */
+}
+
+.language-css .token.class {
+    color: #6610f2; /* Muted purple for classes */
+}
+
+.language-css .token.comment {
+    color: #6c757d; /* Light gray for comments */
+}
+
+.language-css .token.important {
+    color: #dc3545; /* Soft red for important */
+}
+
+.language-css .token.string {
+    color: #20c997; /* Teal for strings */
+}
+
+/* Continue styling other elements as needed */

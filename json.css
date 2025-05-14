@@ -1,0 +1,8 @@
+.language-json .token.property, .cm-property{
+    color: rgb(0, 101, 225) !important;
+    font-style: italic;
+}
+
+.language-json .token.string, .cm-string:not(.cm-property){
+    color: rgb(175, 0, 0) !important;
+}

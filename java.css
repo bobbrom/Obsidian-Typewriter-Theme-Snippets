@@ -1,0 +1,30 @@
+.language-java .token.keyword{
+    color: #3000db;
+}
+
+.language-java .token.function{
+    color: #3e3e3e;
+}
+
+.language-java .token.class-name{
+    color: #ab0000;
+}
+
+.language-java .token.string{
+    color: #008000;
+}
+.language-java .token.operator{
+    color: #000000;
+}
+.language-java .token.annotation{
+    /* dark yellow */
+    color: #999901;
+}
+
+.language-java .token.generics .token.class-name{
+    color: #d10000;
+}
+
+.language-java .token.number{
+    color: #0066ff;
+}

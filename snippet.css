@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+:root{
+    --cs-red: #dc3545;
+    --cs-purple: #6610f2;
+    --cs-black: #333;
+}
+
+.mod-header {
+    font-size: 100%;
+}
+.cm-strong, strong{
+    font-weight: bold;
+}
+
+
+.inline-title {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+    .inline-title {
+        font-size: 2.5em;
+  }
+}
+
+h1, .HyperMD-header-1 {
+    border-bottom: 2px solid gray;
+    margin-bottom: 1em !important;
+}
+
+h2, .HyperMD-header-2 {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+h3, .HyperMD-header-3 {
+    border-bottom: 1px solid #ebebeb;
+}
+
+
+div>pre[class*="language-"] {
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px;
+}
+
+
+
+/* Increase specificity by targeting the class directly */
+
+div>pre[class*="language-"], 
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-begin-bg):not(.cm-active):not(.HyperMD-codeblock-end):not(.HyperMD-codeblock-end-bg),
+.cm-active.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line:not(.HyperMD-codeblock-begin):not(.HyperMD-codeblock-begin-bg):not(.HyperMD-codeblock-end):not(.HyperMD-codeblock-end-bg) 
+{
+    font-size: 14.4px;
+    background-color: white; 
+    padding: 10px; 
+    color: #333;
+}
+
+
+/* Styling for the code block */
+
+div>pre[class*="language-"]>code {
+    color: #333;
+}
+
+
+/* Style for the copy button */
+
+button.copy-code-button {
+    margin-top: 10px;
+    background-color: #f5f5f5 !important;
+    border: 1px solid #ccc !important;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+button.copy-code-button:hover {
+    background-color: #e0dfdf !important;
+}
+
+code{
+    color: var(--cs-black) !important;
+    background-color: transparent !important;
+}
+
+.tree-item-inner{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 105%;
+}
+.nav-folder-title-content{
+    border-bottom: 1px solid gray;
+} 
+
+table, th, td {
+    border: 1px solid var(--cs-black) !important;
+    background-color: #f8f3e6;
+}
+th{
+    text-align: center !important;
+}
+
+.language-bash .token.function {
+    color: #000dff; 
+}
+
+.HyperMD-codeblock.HyperMD-codeblock-bg.cm-line {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > div.HyperMD-HyperMD-header.HyperMD-header-1.cm-line{
+    margin-bottom: 1em !important;
+}

@@ -1,0 +1,64 @@
+:root{
+    --cs-red: #dc3545;
+    --cs-purple: #6610f2;
+    --cs-black: #343a40;
+}
+
+
+.language-csharp .token.keyword {
+    color: var(--cs-red) /* Soft blue for keywords */
+}
+
+.language-csharp .token.namespace {
+    color: #6c757d; /* Soft gray for namespaces */
+}
+
+.language-csharp .token.punctuation {
+    color: #343a40; /* Darker gray for punctuation */
+}
+
+.language-csharp .token.class-name {
+    color: var(--cs-purple)
+}
+
+.language-csharp .token.function {
+    color: #007587; /* Light blue for functions */
+}
+
+.language-csharp .token.attribute {
+    color: #ffc107; /* Muted yellow for attributes */
+}
+
+.language-csharp .token.attribute-arguments {
+    color: #dc3545; /* Soft red for attribute arguments */
+}
+
+.language-csharp .token.string {
+    color: var(--cs-black); /* Teal for strings */
+}
+
+.language-csharp .token.comment {
+    color: #6a737d; /* Light gray for comments */
+}
+
+.language-csharp .token.return-type {
+    color: #6610f2; /* Muted purple for return types */
+}
+
+.language-csharp .token.constructor-invocation {
+    color: #7114fd; /* Soft orange for constructor invocations */
+}
+
+.language-csharp .token.interpolation-string {
+    color: #d73a49; /* Soft red for interpolation strings */
+}
+
+.language-csharp .token.interpolation {
+    color: #22863a; /* Green for interpolations */
+}
+
+.language-csharp .token.boolean {
+    color: #e83e8c; /* Pink for booleans */
+}
+
+/* Continue styling other elements as needed */
